@@ -1,0 +1,94 @@
+body {
+    font-family: system-ui;
+    margin: 0% 20%;
+    background-image: url("imagens/fundo.jpg");
+    background-position: left top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, .75);
+    margin: 5% 0%;
+    padding: 3% 0%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    text-shadow: 2px 2px grey;
+}
+
+h2 {
+    margin-top: 4%;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 2px 2px grey;
+}
+
+p {
+    text-align: justify;
+    font-size: 140%;
+    margin: 5% 5% 0% 5%;
+}
+
+table {
+    font-size: 120%;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+ul {
+    margin-left: 3%;
+    font-size: 135%;
+}
+
+td, th, tr {
+    padding: 3px 10px;
+    text-align: justify;
+    border: 2px solid black;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+tbody {
+    background-color: white;
+}
+
+a {
+    color: rgb(89, 0, 255);
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rgb(159, 107, 255);
+    font-size: 15pt;
+}
+
+.imagem-direita {
+    border-radius: 20px;
+    float: inline-end;
+    width: 170px;
+    margin: 5% 5% 0% 5%;
+}
+
+.imagem-esquerda {
+    border-radius: 20px;
+    float: inline-start;
+    width: 170px;
+    margin: 5% 5% 0% 5%;
+}
+
+.tipos {
+    margin-top: 8%;
+}
+
+#quem-pode {
+    margin-top: 7%;
+}
